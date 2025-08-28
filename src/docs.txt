@@ -57,7 +57,7 @@ STEP 8: EMAIL SETUP
 
 STEP 9: RUN PROJECT
 - npm install
-- npm start
+- npm run dev
 - Check everything looks correct
 
 STEP 10: DEPLOY

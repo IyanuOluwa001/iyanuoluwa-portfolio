@@ -38,9 +38,9 @@ const Portfolio = () => {
 
     
     
-    const myemail ='mrlite402@gmail.com';
-    const myname ='Bethel Nnadi'
-    const acronym ='BN'
+    const myemail ='iyanuoluwaadejare2025@gmail.com';
+    const myname ='IyanuOluwa Emmanuel Adejare'
+    const acronym ='IE'
     
     
     const handleSubmit = (e, preferredMethod = null) => {
@@ -151,41 +151,42 @@ const Portfolio = () => {
 
     const projects = [
         {
-            title: "DeFi Yield Farming Protocol",
-            description: "Built a smart contract system for automated yield farming with multi-token support and compound rewards.",
-            tech: ["Solidity", "OpenZeppelin", "Hardhat", "Ethers.js"],
-            features: ["Auto-compounding rewards", "Multi-token staking", "Emergency withdraw", "Time-locked contracts"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            status: "Live on Mainnet"
+            title: "Decentralized Exchange using CPMM",
+            description: "Built a full suite of contracts containing two pre-coded tokens, let anyone add liquidity and remove. The DEx also rewards liquidity providers.",
+            tech: ["Solidity", "OpenZeppelin", "Hardhat", "Ethers.js, Yarn"],
+            features: ["Wallet Connectivity", "Liquidity Deposit Function", "Swap Function", "Swap Relation Graph", "Debug Contract", "Liquidity Withdrawal Function"],
+            github: "https://github.com/IyanuOluwa001/Decentralized-Exchange-Hardhat-Solidity-Project.git",
+            demo: "https://dex-challenge-beta.vercel.app",
+            status: "Live on Sepolia Testnet"
         },
+
         {
-            title: "NFT Marketplace Contract",
-            description: "Developed a gas-optimized NFT marketplace with royalty distribution and batch minting capabilities.",
-            tech: ["Solidity", "ERC-721", "IPFS", "React"],
-            features: ["Royalty management", "Batch operations", "Lazy minting", "Upgradeable proxy"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            status: "In Development"
+            title: "Solidity Voting Contract",
+            description: "Developed a Voting Contract that checks eligibility of a voter, safe against exploitation, counts votes and return total votes",
+            tech: ["Solidity", "Remix", "Injected Metamask and Deployed on Sepolia"],
+            features: ["Mint Voting Tokens", "Cast votes using tokens", "Track proposal vote count", "Restrict voting access with a custom modifier", "Emit an event when a vote is cast", "Token-Based Voting", "One Vote Per Address", "Proposal Voting", "Transparency", "Eligibility Check", "Vote Counting", "Token Management"],
+            github: "https://github.com/IyanuOluwa001/VotingContract-G4project",
+            status: "Completed"
         },
+        
         {
-            title: "Multi-Sig Wallet System",
-            description: "Created a secure multi-signature wallet with role-based access and transaction queuing system.",
-            tech: ["Solidity", "Gnosis Safe", "Web3.js", "TypeScript"],
-            features: ["M-of-N signatures", "Role management", "Transaction queuing", "Gas optimization"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            status: "Audited"
+            title: " Crowdfunding Contract",
+            description: "Created a secured contract for Crowdfunding",
+            tech: ["Solidity", "Remix", "Injected Metamask and Deployed on Sepolia"],
+            features: ["ETH Contributions", "Funding Goal Tracking", "Refunds", "Owner Withdrawal", "Transparency", "Individual Tracking", "Sepolia Deployment"],
+            github: "https://github.com/IyanuOluwa001/CrowdfundingProject.git",
+            status: "Completed"
         }
     ];
 
     const skills = [
         { name: "Solidity", level: 85, category: "Smart Contracts" },
-        { name: "Hardhat/Foundry", level: 80, category: "Development" },
+        { name: "Hardhat", level: 85, category: "Development" },
         { name: "Web3.js/Ethers.js", level: 90, category: "Integration" },
-        { name: "OpenZeppelin", level: 85, category: "Security" },
-        { name: "React/Next.js", level: 88, category: "Frontend" },
-        { name: "Node.js", level: 82, category: "Backend" }
+        { name: "OpenZeppelin", level: 50, category: "Security" },
+        { name: "React/Next.js", level: 20, category: "Frontend" },
+        { name: "Node.js", level: 20, category: "Backend" },
+        { name: "JAVA", level: 65, category: "Backend" }
     ];
 
     const services = [
@@ -206,6 +207,20 @@ const Portfolio = () => {
             title: "DApp Integration",
             description: "Seamless integration of smart contracts with web applications.",
             features: ["Web3 Integration", "Wallet Connection", "Transaction Handling", "Event Listening"]
+        },
+
+        {
+            icon: <Zap className="w-8 h-8" />,
+            title: "Web3 Community Management",
+            description: "Creation, management and development of vibrant communities through strategic onboarding, organized contests, growth and commitment systems, and creative engagement campaigns.",
+            features: ["User onboarding & engagement systems", "Campaign design & community events", "Discord & Telegram community moderation"]
+        },
+
+        {
+            icon: <Zap className="w-8 h-8" />,
+            title: "X Space Hosting",
+            description: "Brands, projects, and communities awareness through engaging, well-structured discussions to builds trust, visibility, and loyalty.",
+            features: ["Audience Education", "Project promotion and shilling", "Pre-Space Planning", "Professional Hosting and Moderation", "Audience Engagement", "Space Recap", "Strategic Plan for Periodic Space hosting for permanent brand awarenes"]
         }
     ];
 
@@ -319,13 +334,13 @@ const Portfolio = () => {
 
                         {/* Social Links */}
                         <div className="flex justify-center space-x-8">
-                            <a href="#" className={`${textMuted} hover:text-gray-600 transition-all duration-300 hover:scale-125`}>
+                            <a href="https://github.com/IyanuOluwa001" className={`${textMuted} hover:text-gray-600 transition-all duration-300 hover:scale-125`}>
                                 <FaGithub className="w-8 h-8" />
                             </a>
-                            <a href="#" className={`${textMuted} hover:text-gray-600 transition-all duration-300 hover:scale-125`}>
+                            <a href="https://www.linkedin.com/in/iyanuoluwa-emmanuel-adejare/" className={`${textMuted} hover:text-gray-600 transition-all duration-300 hover:scale-125`}>
                                 <FaLinkedin className="w-8 h-8" />
                             </a>
-                            <a href="#" className={`${textMuted} hover:text-gray-600 transition-all duration-300 hover:scale-125`}>
+                            <a href="https://x.com/web3pips" className={`${textMuted} hover:text-gray-600 transition-all duration-300 hover:scale-125`}>
                                 <FaXTwitter className="w-8 h-8" />
                             </a>
                         </div>
@@ -348,7 +363,7 @@ const Portfolio = () => {
                         <div className="grid lg:grid-cols-2 gap-16 items-center">
                             <div>
                                 <p className={`text-lg ${textSecondary} mb-6 leading-relaxed`}>
-                                I'm a passionate Web3 developer specializing in smart contract development and DeFi protocols.
+                                I'm a IyanuOluwa Emmanuel, a passionate Web3 developer specializing in smart contract development and DeFi protocols.
                                     With a strong foundation in Solidity and blockchain architecture, I create secure, gas-efficient
                                     smart contracts that power the next generation of decentralized applications.
                                 </p>
@@ -358,6 +373,14 @@ const Portfolio = () => {
                                     democratize finance and create new economic opportunities.
                                 </p>
 
+                                <p className={`text-lg ${textSecondary} mb-10 leading-relaxed`}>
+                                    With over 5years experience in web3, I have a wide array of skills including, strategic, growth-focused content creation,
+                                    across platforms like X, Sign App, Base App & Farcaster. I also hold engaging, fun and educative spaces to constantly put
+                                    the brand I work with in the heart of their targetted audience. My approach balances problem solving, secured smart contract development,
+                                    solution deployment to blockchain for use, strategic project growth with genuine community building.
+                                    While winning matters, I believe the true value lies in building a meaningful well rounded connections with users and proper strategic Planning
+                                    will make all the difference.
+                                </p>
                                 <div className="grid grid-cols-2 gap-8">
                                     <div className="text-center">
                                         <div className={`text-4xl font-bold ${textPrimary} mb-2`}>5+</div>
@@ -449,7 +472,7 @@ const Portfolio = () => {
                                 {/* Links */}
                                 <div className="flex items-ceter gap-2">
                                     <div className="font-bold text-sm">View repo:</div>
-                                    <a href="https://github.com" className={`${textMuted} ${hoverColor} transition-all duration-300 hover:scale-125`}>
+                                    <a href="https://github.com/IyanuOluwa001/Decentralized-Exchange-Hardhat-Solidity-Project.git" className={`${textMuted} ${hoverColor} transition-all duration-300 hover:scale-125`}>
                                         <FaGithub className="w-8 h-8" />
                                     </a>
                                 </div>
@@ -504,21 +527,28 @@ const Portfolio = () => {
                                     <Mail className="w-10 h-10" />
                                 </div>
                                 <h3 className="font-bold mb-3 text-xl">Email</h3>
-                                <p className={`${textSecondary}`}>youremail@gmail.com</p>
+                                <p className={`${textSecondary}`}>iyanuoluwaadejare2025@gmail.com</p>
                             </div>
                             <div className="text-center">
                                 <div className={`w-20 h-20 ${isDarkMode ? 'bg-gray-800' : 'bg-gray-100'} rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl`}>
                                     <FaGithub  className="w-10 h-10" />
                                 </div>
                                 <h3 className="font-bold mb-3 text-xl">GitHub</h3>
-                                <p className={`${textSecondary}`}>@yourhandle</p>
+                                <p className={`${textSecondary}`}>@IyanuOluwa001</p>
                             </div>
                             <div className="text-center">
                                 <div className={`w-20 h-20 ${isDarkMode ? 'bg-gray-800' : 'bg-gray-100'} rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl`}>
                                     <FaLinkedin className="w-10 h-10" />
                                 </div>
                                 <h3 className="font-bold mb-3 text-xl">LinkedIn</h3>
-                                <p className={`${textSecondary}`}>in/yourprofile</p>
+                                <p className={`${textSecondary}`}>in/iyanuoluwa-emmanuel-adejare/</p>
+                            </div>
+                            <div className="text-center">
+                                <div className={`w-20 h-20 ${isDarkMode ? 'bg-gray-800' : 'bg-gray-100'} rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl`}>
+                                    <FaLinkedin className="w-10 h-10" />
+                                </div>
+                                <h3 className="font-bold mb-3 text-xl">X</h3>
+                                <p className={`${textSecondary}`}>@web3pips</p>
                             </div>
                         </div>
 
