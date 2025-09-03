@@ -62,7 +62,18 @@ STEP 9: RUN PROJECT
 
 STEP 10: DEPLOY
 - npm run build
-- Upload build folder to Netlify, Vercel, or GitHub Pages
+
+STEP 11: Upload build folder to Netlify, Vercel, or GitHub Pages (I choose Vercel)
+- npm install -g vercel
+- vercel login
+- Continue with GitHub (Then hope for successful login)
+- vercel (press yes when it shows the portfolio you built your website in)
+- Asked for scope ( I gave IyanuOluwa's Projects by pressing enter)
+- Said No for link to existing project so that i can create IyanuOluwa-portfolio
+- I pressed enter when it asked which directory is my code located as I am already in the directory
+- Detected vite
+- want to modify these settings
+
 
 NOTES:
 - Services section is good as-is for most developers
